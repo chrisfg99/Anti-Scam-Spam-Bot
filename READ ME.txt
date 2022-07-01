@@ -1,0 +1,23 @@
+Anti Scam-Spam Email Bot
+CANDIDATE NUMBER:184521
+UNIVERSITY OF SUSSEX
+All folders and files other than main.py must be placed in a folder called Controller
+
+1. Open the main.py in a python IDE
+1a. Retraining is disabled by default due to bias can be enabled by changing the retraining parameter to 1 instead of 0, NOT ADVISED
+
+2.Run the main.py file, this will in turn run the Controller.py file which controls all other aspects of the program
+
+3.Program will check the inbox every 60 seconds for new emails
+
+4.After running the program it must be stopped manually 
+4a.Loop can be stopped after 1 run by passing testing parameter as 1 when calling controller from main
+
+Notes;
+Emails must be sent to isThisScamOrSpam@gmail.com to be classified
+If there are no emails in the inbox none can be classified
+Login details for the inbox can be given on request
+Rerunning the program will lead to all emails in the inbox being reclassified and responses sent to those users
+	Therefore inbox should be emptied if program is stopped after a long period of time before rerunning
+	This will stop users recieving replies to emails they may have sent a while ago iritating them
+Don't empty inbox whilst program is running as counter will lose count of what emails are what
